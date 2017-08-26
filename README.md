@@ -10,4 +10,6 @@
 * * * * *
 ### 支持翼语言的童鞋们请到 **[码云](http://git.oschina.net/windfox/yi1web)**、**[GitHub](https://github.com/windfoxofo/yi1web)** 或 **[Coding.net](https://coding.net/u/windfoxofo/p/yi1web/git)** 上给我们一个**Star** (づ￣ 3￣)づ
 
->[info] 翼语言 1 Web 目前最新版本为 1.0.0000，请到 **[码云](http://git.oschina.net/windfox/yi1web)** 、 **[GitHub](https://github.com/windfoxofo/yi1web)** 或 **[Coding.net](https://coding.net/u/windfoxofo/p/yi1web/git)** 获取最新版本。
+> 翼语言 1 Web 目前最新版本为 1.0.0000，请到 **[码云](http://git.oschina.net/windfox/yi1web)** 、 **[GitHub](https://github.com/windfoxofo/yi1web)** 或 **[Coding.net](https://coding.net/u/windfoxofo/p/yi1web/git)** 获取最新版本。
+
+> 您可以在 **[看云](http://doc.windfox.org.cn/yi-web-v1/)** 上查看翼语言 1 Web 的教程。
