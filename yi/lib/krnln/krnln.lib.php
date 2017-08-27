@@ -9,3 +9,14 @@
 // +----------------------------------------------------------------------
 // | Author: Peter Zhuo <petzuo@163.com>
 // +----------------------------------------------------------------------
+
+class krnln {
+  public $lib_info = array(
+    'libname' => 'krnln',
+    'chinesename' => '基础运行支持库',
+    'version' => '1.0',
+    'yi_earlist_version' => '1.0.0.0000'
+    'functions' => '标准输出',
+    'as_functions' => 'putout'
+  )
+}

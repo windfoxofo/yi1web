@@ -21,7 +21,7 @@ define('YI_LOG_PATH', __DIR__.'../log/');
 require_once './yi.cfg.php';
 require_once './functions.php';
 
-//获取请求路径
+//获取路径
 if(isset($_SERVER['PATH_INFO'])){
   if(get_default_file('/')==''){
       errecho('403');
@@ -44,4 +44,5 @@ if(isset($_SERVER['PATH_INFO'])){
   }
 }
 
-//设置实际路径
+// 开始解析文件
+if(substr(YI_FILEPATH,-1))
