@@ -16,22 +16,22 @@
 function errecho($errcode){
   switch($errcode){
     case '400':
-
+      require_once '../public_html/'.$errpage['400'];
       break;
     case '403':
-
+      require_once '../public_html/'.$errpage['403'];
       break;
     case '404':
-
+      require_once '../public_html/'.$errpage['404'];
       break;
     case '405':
-
+      require_once '../public_html/'.$errpage['405'];
       break;
     case '500':
-
+      require_once '../public_html/'.$errpage['500'];
       break;
     default:
-
+      require_once '../public_html/'.$errpage['others'];
       break;
   }
 }
