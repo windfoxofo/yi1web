@@ -45,4 +45,16 @@ if(isset($_SERVER['PATH_INFO'])){
 }
 
 // 开始解析文件
-if(substr(YI_FILEPATH,-1))
+if(explode('.',YI_FILEPATH)[count(explode('.',YI_FILEPATH))]=='yi'){
+  // 解析翼语言文件
+  require_once 'yi_interpreter.php';
+  
+}else if(explode('.',YI_FILEPATH)[count(explode('.',YI_FILEPATH))]=='html' or explode('.',YI_FILEPATH)[count(explode('.',YI_FILEPATH))]=='htm'){
+  // 解析HTML文件
+  require_once 'html_interpreter.php';
+  
+}else{
+  // 解析其他文件
+  require_once 'others_interpreter.php';
+  
+}
