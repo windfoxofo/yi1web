@@ -11,3 +11,9 @@
 // +----------------------------------------------------------------------
 
 // [ 其他解析入口文件 ]
+
+// 配置网页头部
+header('Content-Type: application/octet-stream');
+header('Content-Disposition: attachment; filename="'.YI_FILEPATH.'"');
+header('Content-Transfer-Encoding: binary');
+readfile('YI_FILEPATH');
