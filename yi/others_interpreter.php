@@ -16,4 +16,6 @@
 header('Content-Type: application/octet-stream');
 header('Content-Disposition: attachment; filename="'.YI_FILEPATH.'"');
 header('Content-Transfer-Encoding: binary');
+
+// 读取文件提供下载
 readfile('YI_FILEPATH');
