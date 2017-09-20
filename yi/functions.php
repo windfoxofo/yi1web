@@ -53,3 +53,12 @@ function get_default_file($path){
     }
   }
 }
+
+//error_show(错误标题,错误信息) 根据调试模式是否开启，输出错误信息
+function error_show($errortitle,$errormsg){
+  if(YI_DEBUG == true){
+    
+  }else{
+    
+  }
+}
