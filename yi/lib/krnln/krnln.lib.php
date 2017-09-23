@@ -10,13 +10,22 @@
 // | Author: Peter Zhuo <petzuo@163.com>
 // +----------------------------------------------------------------------
 
-class krnln {
+// [ 基础运行支持库 主文件 ]
+
+class lib_krnln {
+  // 支持库信息
   public $lib_info = array(
-    'libname' => 'krnln',
-    'chinesename' => '基础运行支持库',
-    'version' => '1.0',
-    'yi_earlist_version' => '1.0.0.0000'
-    'functions' => '标准输出',
-    'as_functions' => 'putout'
+    'libname' => 'krnln', // 支持库代号
+    'chinesename' => '基础运行支持库', // 支持库名称
+    'version' => '1.0', // 版本
+    'yi_earlist_version' => '1.0.0.0000' // 支持的最早的翼语言版本
+    'functions' => '标准输出', // 函数列表
+    'as_functions' => 'output' // 对应的函数
   )
+  // 函数们
+  public class lib_functions {
+    public function output($things){
+      echo $things;
+    }
+  }
 }
